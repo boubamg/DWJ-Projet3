@@ -146,11 +146,11 @@ main {
 .delice p {
   color: #0D00FF;
 }
-.delice .title {
-  font-size: 40px;
-}
 .delice h2 {
   font-family: "Alex Brush", cursive;
+}
+.delice .title {
+  font-size: 50px;
 }
 .delice section div h3, .delice section div p, .delice section div span {
   color: black;
@@ -164,11 +164,11 @@ main {
 .palette p {
   color: #30A700;
 }
-.palette .title {
-  font-size: 40px;
-}
 .palette h2 {
   font-family: "Kaushan Script", cursive;
+}
+.palette .title {
+  font-size: 50px;
 }
 .palette section div h3, .palette section div p, .palette section div span {
   color: black;

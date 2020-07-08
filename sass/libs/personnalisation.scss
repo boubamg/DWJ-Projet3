@@ -52,12 +52,12 @@
     background-color: $delice-background;
     @include gradient-color(#0D00FF, #00A1FF);
 
-    .title {
-        font-size: 40px;
-    }
-
     h2 {
         font-family: $delice-font;
+    }
+
+    .title {
+        font-size: 50px;
     }
 
     section {
@@ -72,12 +72,12 @@
 .palette {
     @include gradient-color(#30A700, #BCFFA0);
 
-    .title {
-        font-size: 40px;
-    }
-
     h2 {
         font-family: $palette-font;
+    }
+
+    .title {
+        font-size: 50px;
     }
 
     section {
