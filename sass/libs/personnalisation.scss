@@ -17,7 +17,7 @@
 
 .chic {
     background-color: $chic-background;
-    @include gradient-color(#B86011,#5A32C0);
+    @include gradient-color(rgb(255, 149, 56),rgb(121, 81, 223));
 
     h2 {
         font-family: $chic-font;
@@ -29,7 +29,6 @@
                 color: #B86011 ;
             }
         }
-       
     }
    
     .papilles {
@@ -37,9 +36,7 @@
             h3, p, span {
                 color: #935087;
             }
-           
         }
-        
     }
 
     .sucrees {
@@ -47,9 +44,7 @@
             h3, p, span {
                 color: #5A32C0;
             }
-           
         }
-        
     }
 }
 
@@ -57,9 +52,12 @@
     background-color: $delice-background;
     @include gradient-color(#0D00FF, #00A1FF);
 
+    .title {
+        font-size: 40px;
+    }
+
     h2 {
         font-family: $delice-font;
-        font-size: 60px;
     }
 
     section {
@@ -67,7 +65,6 @@
             h3, p, span {
                 color: black;
             }
-        
         }
     }
 }
@@ -75,9 +72,12 @@
 .palette {
     @include gradient-color(#30A700, #BCFFA0);
 
+    .title {
+        font-size: 40px;
+    }
+
     h2 {
         font-family: $palette-font;
-        font-size: 60px;
     }
 
     section {
@@ -85,7 +85,6 @@
             h3, p, span {
                 color: black;
             }
-        
         }
     }
 }
