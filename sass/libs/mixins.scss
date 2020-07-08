@@ -1,0 +1,20 @@
+@mixin gradient-color($color1, $color2) {
+    h2 {
+        @include gradient($color1, $color2)
+    }
+    p {
+        color: $color1;
+    }
+}
+
+@mixin gradient($color1, $color2) {
+    background: -webkit-linear-gradient(left, $color1, $color2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin ombres() {
+    -webkit-box-shadow: 1px 6px 30px 0px rgba(117,116,117,0.57);
+    -moz-box-shadow: 1px 6px 30px 0px rgba(117,116,117,0.57);
+    box-shadow: 1px 6px 30px 0px rgba(117,116,117,0.57);
+}

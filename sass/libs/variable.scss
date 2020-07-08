@@ -1,0 +1,21 @@
+/* ------------------   Prédéfini --------------- */
+
+/* Couleurs principales */
+$green : #579c87;
+$yellow : #fdcb46;
+
+%main-color {
+    background-color: $green;
+    color: $yellow;
+}
+
+/* Couleurs cartes */
+$note-background: #FAD7D3;
+$chic-background: #FFF2FE;
+$delice-background: #F7F7F7;
+
+/* Font cartes */
+$note-font: 'Denonshire', cursive;
+$chic-font: 'Croissant One', cursive;
+$delice-font: 'Alex Brush', cursive;
+$palette-font: 'Kaushan Script', cursive;

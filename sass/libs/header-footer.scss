@@ -1,0 +1,29 @@
+/* --------------- HEADER / FOOTER --------------- */
+
+header {
+    @extend %main-color;
+    display: flex;
+    height: 60px;
+
+    h1 {
+        margin: auto;
+    }
+}
+
+footer {
+    @extend %main-color;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    
+    h3 {
+        margin: auto;
+
+        a {
+            color: $yellow;
+        }
+        
+    }
+}

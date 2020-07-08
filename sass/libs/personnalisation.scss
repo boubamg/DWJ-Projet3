@@ -1,0 +1,43 @@
+@import "./mixins.scss";
+
+/* ---------------- PERSONNALISATION -----------------*/
+
+.note {
+    background-color: $note-background;
+    @include gradient-color(#4C3000,#4C3000);
+
+    h2, .title h3, section div {
+        font-family: $note-font;
+    }
+
+    i {
+        @include gradient(#ED5555,rgb(236, 71, 26))
+    }
+}
+
+.chic {
+    background-color: $chic-background;
+    @include gradient-color(#D58602,#A100F8);
+
+    h2 {
+        font-family: $chic-font;
+    }
+   
+}
+
+.delice {
+    background-color: $delice-background;
+    @include gradient-color(#0D00FF, #00A1FF);
+
+    h2 {
+        font-family: $delice-font;
+    }
+}
+
+.palette {
+    @include gradient-color(#30A700, #BCFFA0);
+
+    h2 {
+        font-family: $palette-font;
+    }
+}

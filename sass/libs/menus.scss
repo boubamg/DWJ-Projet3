@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    /* justify-content: center; */
+}
+.menu {
+    @include ombres;
+    margin: 50px auto;
+    padding: 30px;
+    
+    .title {
+        margin: 30px auto;
+        text-align: center;
+        
+    }
+
+    section {
+        display:flex;
+        flex-direction: column;
+
+        div {
+            margin:20px 0;
+            display: flex;
+            justify-content: space-around;
+            
+            p {
+                flex: 15;
+            }
+
+            .prix {
+                flex: 1;
+            }
+            
+        }
+
+        
+
+    }
+}
