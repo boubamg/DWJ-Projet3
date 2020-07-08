@@ -1,3 +1,5 @@
+@import './variable.scss';
+
 .main {
     display: flex;
     /* justify-content: center; */
@@ -16,6 +18,7 @@
     section {
         display:flex;
         flex-direction: column;
+        font-family: $menu-font;
 
         div {
             margin:20px 0;
@@ -23,16 +26,12 @@
             justify-content: space-around;
             
             p {
-                flex: 15;
+                flex: 10;
             }
 
             .prix {
                 flex: 1;
             }
-            
         }
-
-        
-
     }
 }

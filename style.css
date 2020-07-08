@@ -45,6 +45,9 @@ body {
 body a {
   text-decoration: none;
 }
+body h2, body h3 {
+  font-weight: normal;
+}
 
 /* ----------------- RESTAURANTS ---------------- */
 main {
@@ -92,18 +95,18 @@ main {
   background-color: #FAD7D3;
 }
 .note h2 {
-  background: -webkit-linear-gradient(left, #4C3000, #4C3000);
+  background: -webkit-linear-gradient(left, #2E0E13, #2E0E13);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .note p {
-  color: #4C3000;
+  color: #2E0E13;
 }
-.note h2, .note .title h3, .note section div {
-  font-family: "Denonshire", cursive;
+.note h2, .note .title h3 {
+  font-family: "Devonshire", cursive;
 }
 .note i {
-  background: -webkit-linear-gradient(left, #ED5555, #ec471a);
+  background: -webkit-linear-gradient(left, #E93F4F, #F07055);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -112,15 +115,24 @@ main {
   background-color: #FFF2FE;
 }
 .chic h2 {
-  background: -webkit-linear-gradient(left, #D58602, #A100F8);
+  background: -webkit-linear-gradient(left, #B86011, #5A32C0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .chic p {
-  color: #D58602;
+  color: #B86011;
 }
 .chic h2 {
   font-family: "Croissant One", cursive;
+}
+.chic .appetit div h3, .chic .appetit div p, .chic .appetit div span {
+  color: #B86011;
+}
+.chic .papilles div h3, .chic .papilles div p, .chic .papilles div span {
+  color: #935087;
+}
+.chic .sucrees div h3, .chic .sucrees div p, .chic .sucrees div span {
+  color: #5A32C0;
 }
 
 .delice {
@@ -136,6 +148,10 @@ main {
 }
 .delice h2 {
   font-family: "Alex Brush", cursive;
+  font-size: 60px;
+}
+.delice section div h3, .delice section div p, .delice section div span {
+  color: black;
 }
 
 .palette h2 {
@@ -148,8 +164,21 @@ main {
 }
 .palette h2 {
   font-family: "Kaushan Script", cursive;
+  font-size: 60px;
+}
+.palette section div h3, .palette section div p, .palette section div span {
+  color: black;
 }
 
+/* ------------------   Prédéfini --------------- */
+/* Couleurs principales */
+header, footer, #prochainement p {
+  background-color: #579c87;
+  color: #fdcb46;
+}
+
+/* Couleurs cartes */
+/* Font cartes */
 .main {
   display: flex;
   /* justify-content: center; */
@@ -169,6 +198,7 @@ main {
 .menu section {
   display: flex;
   flex-direction: column;
+  font-family: "Shadows Into Light", cursive;
 }
 .menu section div {
   margin: 20px 0;
@@ -176,7 +206,7 @@ main {
   justify-content: space-around;
 }
 .menu section div p {
-  flex: 15;
+  flex: 10;
 }
 .menu section div .prix {
   flex: 1;

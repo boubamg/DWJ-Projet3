@@ -4,25 +4,53 @@
 
 .note {
     background-color: $note-background;
-    @include gradient-color(#4C3000,#4C3000);
+    @include gradient-color(#2E0E13,#2E0E13);
 
-    h2, .title h3, section div {
+    h2, .title h3 {
         font-family: $note-font;
     }
 
     i {
-        @include gradient(#ED5555,rgb(236, 71, 26))
+        @include gradient(#E93F4F,#F07055)
     }
 }
 
 .chic {
     background-color: $chic-background;
-    @include gradient-color(#D58602,#A100F8);
+    @include gradient-color(#B86011,#5A32C0);
 
     h2 {
         font-family: $chic-font;
     }
+
+    .appetit {
+        div {
+            h3, p, span {
+                color: #B86011 ;
+            }
+        }
+       
+    }
    
+    .papilles {
+        div {
+            h3, p, span {
+                color: #935087;
+            }
+           
+        }
+        
+    }
+
+    .sucrees {
+        div {
+            h3, p, span {
+                color: #5A32C0;
+            }
+           
+        }
+        
+    }
 }
 
 .delice {
@@ -31,6 +59,16 @@
 
     h2 {
         font-family: $delice-font;
+        font-size: 60px;
+    }
+
+    section {
+        div {
+            h3, p, span {
+                color: black;
+            }
+        
+        }
     }
 }
 
@@ -39,5 +77,15 @@
 
     h2 {
         font-family: $palette-font;
+        font-size: 60px;
+    }
+
+    section {
+        div {
+            h3, p, span {
+                color: black;
+            }
+        
+        }
     }
 }
