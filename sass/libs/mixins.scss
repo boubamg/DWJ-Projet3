@@ -18,3 +18,11 @@
     -moz-box-shadow: 1px 6px 30px 0px rgba(117,116,117,0.57);
     box-shadow: 1px 6px 30px 0px rgba(117,116,117,0.57);
 }
+
+@mixin font-color-menu($color) {
+    div {
+        h3, p, span {
+            color: $color;
+        }
+    }
+}

@@ -24,27 +24,15 @@
     }
 
     .appetit {
-        div {
-            h3, p, span {
-                color: #B86011 ;
-            }
-        }
+        @include font-color-menu(#B86011);
     }
    
     .papilles {
-        div {
-            h3, p, span {
-                color: #935087;
-            }
-        }
+        @include font-color-menu(#935087);
     }
 
     .sucrees {
-        div {
-            h3, p, span {
-                color: #5A32C0;
-            }
-        }
+        @include font-color-menu(#5A32C0);
     }
 }
 
@@ -61,11 +49,7 @@
     }
 
     section {
-        div {
-            h3, p, span {
-                color: black;
-            }
-        }
+        @include font-color-menu(#000);
     }
 }
 
@@ -81,10 +65,6 @@
     }
 
     section {
-        div {
-            h3, p, span {
-                color: black;
-            }
-        }
+        @include font-color-menu(#000);
     }
 }
