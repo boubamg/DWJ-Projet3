@@ -27,9 +27,19 @@ main {
         
         /* OMBRES */
         @include ombres;
-        
+    
         h2 {
             margin: 30px;
+        }
+
+        a {
+            h2 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 20px;
+            }
         }
 
     }

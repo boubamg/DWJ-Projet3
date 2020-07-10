@@ -6,6 +6,10 @@
     background-color: $note-background;
     @include gradient-color(#2E0E13,#2E0E13);
 
+    .trait {
+        background-color: #2E0E13;
+    }
+
     h2, .title h3 {
         font-family: $note-font;
     }
@@ -25,20 +29,33 @@
 
     .appetit {
         @include font-color-menu(#B86011);
+        
+        .trait {
+            background-color: #B86011;
+        }
     }
    
     .papilles {
         @include font-color-menu(#935087);
+
+        .trait {
+            background-color: #935087;
+        }
     }
 
     .sucrees {
         @include font-color-menu(#5A32C0);
+
+        .trait {
+            background-color: #5A32C0;
+        }
     }
 }
 
 .delice {
     background-color: $delice-background;
-    @include gradient-color(#0D00FF, #00A1FF);
+
+    @include gradient-color(#0D00FF, #1FE9F7);
 
     h2 {
         font-family: $delice-font;
@@ -51,6 +68,22 @@
     section {
         @include font-color-menu(#000);
     }
+
+    .trait-1 {
+        .trait {
+            background-color: #0D00FF;
+        }
+    }
+    .trait-2 {
+        .trait {
+            background-color: #0C56F0;
+        }
+    }   
+    .trait-3 {
+        .trait {
+            background-color: #1FE9F7;
+        }
+    }   
 }
 
 .palette {
@@ -67,4 +100,14 @@
     section {
         @include font-color-menu(#000);
     }
+
+    .degrade-1 {
+        background: -webkit-linear-gradient(left, #30A700, #BCFFA0);
+    }
+
+    .degrade-2 {
+        background: -webkit-linear-gradient(left, #BCFFA0, #30A700);
+
+    }
 }
+

@@ -2,7 +2,6 @@
 
 .main {
     display: flex;
-    /* justify-content: center; */
 }
 .menu {
     @include ombres;
@@ -20,12 +19,26 @@
         flex-direction: column;
         font-family: $menu-font;
 
-        div {
+        >div {
             margin:20px 0;
-            padding: 0 100px;
+            padding: 0 50px;
             display: flex;
             justify-content: space-around;
-            
+            align-items: center;
+
+           
+
+            .trait {
+                display: flex;
+                height: 4px;
+                flex-grow: 3;
+            }
+
+            >h3 {
+                flex-grow:2;
+                text-align: center;
+            }
+
             p {
                 flex: 10;
             }

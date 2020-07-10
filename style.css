@@ -78,6 +78,12 @@ main {
 .container .carte h2 {
   margin: 30px;
 }
+.container .carte a h2 {
+  font-size: 40px;
+}
+.container .carte a p {
+  font-size: 20px;
+}
 
 /* ----------------- PROCHAINEMENT -------------- */
 #prochainement {
@@ -101,6 +107,9 @@ main {
 }
 .note p {
   color: #2E0E13;
+}
+.note .trait {
+  background-color: #2E0E13;
 }
 .note h2, .note .title h3 {
   font-family: "Devonshire", cursive;
@@ -128,18 +137,27 @@ main {
 .chic .appetit div h3, .chic .appetit div p, .chic .appetit div span {
   color: #B86011;
 }
+.chic .appetit .trait {
+  background-color: #B86011;
+}
 .chic .papilles div h3, .chic .papilles div p, .chic .papilles div span {
   color: #935087;
 }
+.chic .papilles .trait {
+  background-color: #935087;
+}
 .chic .sucrees div h3, .chic .sucrees div p, .chic .sucrees div span {
   color: #5A32C0;
+}
+.chic .sucrees .trait {
+  background-color: #5A32C0;
 }
 
 .delice {
   background-color: #F7F7F7;
 }
 .delice h2 {
-  background: -webkit-linear-gradient(left, #0D00FF, #00A1FF);
+  background: -webkit-linear-gradient(left, #0D00FF, #1FE9F7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -154,6 +172,15 @@ main {
 }
 .delice section div h3, .delice section div p, .delice section div span {
   color: #000;
+}
+.delice .trait-1 .trait {
+  background-color: #0D00FF;
+}
+.delice .trait-2 .trait {
+  background-color: #0C56F0;
+}
+.delice .trait-3 .trait {
+  background-color: #1FE9F7;
 }
 
 .palette h2 {
@@ -173,6 +200,12 @@ main {
 .palette section div h3, .palette section div p, .palette section div span {
   color: #000;
 }
+.palette .degrade-1 {
+  background: -webkit-linear-gradient(left, #30A700, #BCFFA0);
+}
+.palette .degrade-2 {
+  background: -webkit-linear-gradient(left, #BCFFA0, #30A700);
+}
 
 /* ------------------   Prédéfini --------------- */
 /* Couleurs principales */
@@ -185,7 +218,6 @@ header, footer, #prochainement p {
 /* Font cartes */
 .main {
   display: flex;
-  /* justify-content: center; */
 }
 
 .menu {
@@ -204,16 +236,26 @@ header, footer, #prochainement p {
   flex-direction: column;
   font-family: "Shadows Into Light", cursive;
 }
-.menu section div {
+.menu section > div {
   margin: 20px 0;
-  padding: 0 100px;
+  padding: 0 50px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
-.menu section div p {
+.menu section > div .trait {
+  display: flex;
+  height: 4px;
+  flex-grow: 3;
+}
+.menu section > div > h3 {
+  flex-grow: 2;
+  text-align: center;
+}
+.menu section > div p {
   flex: 10;
 }
-.menu section div .prix {
+.menu section > div .prix {
   flex: 1;
 }
 
