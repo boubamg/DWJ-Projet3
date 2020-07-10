@@ -1,4 +1,6 @@
-@mixin gradient-color($color1, $color2) {
+/* ------------------- Dégradés -------------------- */
+
+@mixin gradient-color($color1, $color2: $color1) {
     h2 {
         @include gradient($color1, $color2)
     }
@@ -13,11 +15,11 @@
     -webkit-text-fill-color: transparent;
 }
 
-@mixin ombres() {
-    -webkit-box-shadow: 1px 6px 30px 0px rgba(117,116,117,0.57);
-    -moz-box-shadow: 1px 6px 30px 0px rgba(117,116,117,0.57);
-    box-shadow: 1px 6px 30px 0px rgba(117,116,117,0.57);
+@mixin gradient-background($color1,$color2) {
+    background: -webkit-linear-gradient(left, $color1, $color2);
 }
+
+/* ---------------- Couleurs ------------------ */
 
 @mixin font-color-menu($color) {
     div {
@@ -26,3 +28,28 @@
         }
     }
 }
+
+@mixin trait-color($color) {
+    .trait {
+        background-color: $color;
+    }
+}
+
+/* --------------- -Squelette ----------------- */
+
+@mixin skeleton-menu($background-color: #fff, $gradient-color1, $gradient-color2 : $gradient-color1, $font) {
+
+    background-color: $background-color;
+    @include gradient-color($gradient-color1, $gradient-color2);
+    h2, .title h3 {
+        font-family: $font;
+    }
+}
+
+
+@mixin ombres() {
+    -webkit-box-shadow: 1px 6px 30px 0px rgba(117,116,117,0.57);
+    -moz-box-shadow: 1px 6px 30px 0px rgba(117,116,117,0.57);
+    box-shadow: 1px 6px 30px 0px rgba(117,116,117,0.57);
+}
+

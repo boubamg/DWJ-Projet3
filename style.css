@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* ------------------   Prédéfini --------------- */
-/* Couleurs principales */
+/* Couleurs principales site */
+/* Couleurs principales menu */
+/* note */
+/* chic */
+/* delice */
+/* palette */
 #prochainement p, footer, header {
   background-color: #579c87;
   color: #fdcb46;
@@ -49,6 +54,9 @@ body h2, body h3 {
   font-weight: normal;
 }
 
+/* ------------------- Dégradés -------------------- */
+/* ---------------- Couleurs ------------------ */
+/* --------------- -Squelette ----------------- */
 /* ----------------- RESTAURANTS ---------------- */
 main {
   display: flex;
@@ -96,6 +104,9 @@ main {
   border-radius: 5px;
 }
 
+/* ------------------- Dégradés -------------------- */
+/* ---------------- Couleurs ------------------ */
+/* --------------- -Squelette ----------------- */
 /* ---------------- PERSONNALISATION -----------------*/
 .note {
   background-color: #FAD7D3;
@@ -108,11 +119,11 @@ main {
 .note p {
   color: #2E0E13;
 }
-.note .trait {
-  background-color: #2E0E13;
-}
 .note h2, .note .title h3 {
   font-family: "Devonshire", cursive;
+}
+.note .trait {
+  background-color: #2E0E13;
 }
 .note i {
   background: -webkit-linear-gradient(left, #E93F4F, #F07055);
@@ -124,21 +135,21 @@ main {
   background-color: #FFF2FE;
 }
 .chic h2 {
-  background: -webkit-linear-gradient(left, #ff9538, #7951df);
+  background: -webkit-linear-gradient(left, #FF9538, #7951DF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .chic p {
-  color: #ff9538;
+  color: #FF9538;
 }
-.chic h2 {
+.chic h2, .chic .title h3 {
   font-family: "Croissant One", cursive;
 }
 .chic .appetit div h3, .chic .appetit div p, .chic .appetit div span {
-  color: #B86011;
+  color: #FF9538;
 }
 .chic .appetit .trait {
-  background-color: #B86011;
+  background-color: #FF9538;
 }
 .chic .papilles div h3, .chic .papilles div p, .chic .papilles div span {
   color: #935087;
@@ -147,14 +158,15 @@ main {
   background-color: #935087;
 }
 .chic .sucrees div h3, .chic .sucrees div p, .chic .sucrees div span {
-  color: #5A32C0;
+  color: #7951DF;
 }
 .chic .sucrees .trait {
-  background-color: #5A32C0;
+  background-color: #7951DF;
 }
 
 .delice {
   background-color: #F7F7F7;
+  /*  COULEURS TRAIT */
 }
 .delice h2 {
   background: -webkit-linear-gradient(left, #0D00FF, #1FE9F7);
@@ -164,25 +176,25 @@ main {
 .delice p {
   color: #0D00FF;
 }
-.delice h2 {
+.delice h2, .delice .title h3 {
   font-family: "Alex Brush", cursive;
 }
 .delice .title {
   font-size: 50px;
 }
-.delice section div h3, .delice section div p, .delice section div span {
-  color: #000;
-}
 .delice .trait-1 .trait {
   background-color: #0D00FF;
 }
 .delice .trait-2 .trait {
-  background-color: #0C56F0;
+  background-color: #0D00FF;
 }
 .delice .trait-3 .trait {
   background-color: #1FE9F7;
 }
 
+.palette {
+  background-color: #fff;
+}
 .palette h2 {
   background: -webkit-linear-gradient(left, #30A700, #BCFFA0);
   -webkit-background-clip: text;
@@ -191,14 +203,11 @@ main {
 .palette p {
   color: #30A700;
 }
-.palette h2 {
+.palette h2, .palette .title h3 {
   font-family: "Kaushan Script", cursive;
 }
 .palette .title {
   font-size: 50px;
-}
-.palette section div h3, .palette section div p, .palette section div span {
-  color: #000;
 }
 .palette .degrade-1 {
   background: -webkit-linear-gradient(left, #30A700, #BCFFA0);
@@ -207,8 +216,17 @@ main {
   background: -webkit-linear-gradient(left, #BCFFA0, #30A700);
 }
 
+.delice section div h3, .delice section div p, .delice section div span, .palette section div h3, .palette section div p, .palette section div span {
+  color: #000;
+}
+
 /* ------------------   Prédéfini --------------- */
-/* Couleurs principales */
+/* Couleurs principales site */
+/* Couleurs principales menu */
+/* note */
+/* chic */
+/* delice */
+/* palette */
 header, footer, #prochainement p {
   background-color: #579c87;
   color: #fdcb46;
