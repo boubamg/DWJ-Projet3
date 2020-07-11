@@ -20,8 +20,8 @@
     }
    
     .papilles {
-        @include font-color-menu(#935087);
-        @include trait-color(#935087);
+        @include font-color-menu($chic-font-color3);
+        @include trait-color($chic-font-color3);
     }
 
     .sucrees {
@@ -43,7 +43,7 @@
         @include trait-color($delice-font-color1);
     }
     .trait-2 {
-        @include trait-color($delice-font-color1);
+        @include trait-color($delice-font-color3);
     }   
     .trait-3 {
         @include trait-color($delice-font-color2);

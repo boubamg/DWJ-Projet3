@@ -57,6 +57,7 @@ body h2, body h3 {
 /* ------------------- Dégradés -------------------- */
 /* ---------------- Couleurs ------------------ */
 /* --------------- -Squelette ----------------- */
+/* ------------------- ANIMATION SOULIGNEMENT PARTIE MENU ---------------- */
 /* ----------------- RESTAURANTS ---------------- */
 main {
   display: flex;
@@ -107,6 +108,7 @@ main {
 /* ------------------- Dégradés -------------------- */
 /* ---------------- Couleurs ------------------ */
 /* --------------- -Squelette ----------------- */
+/* ------------------- ANIMATION SOULIGNEMENT PARTIE MENU ---------------- */
 /* ---------------- PERSONNALISATION -----------------*/
 .note {
   background-color: #FAD7D3;
@@ -186,7 +188,7 @@ main {
   background-color: #0D00FF;
 }
 .delice .trait-2 .trait {
-  background-color: #0D00FF;
+  background-color: #0C56F0;
 }
 .delice .trait-3 .trait {
   background-color: #1FE9F7;
@@ -277,6 +279,10 @@ header, footer, #prochainement p {
   flex: 1;
 }
 
+/* ------------------- Dégradés -------------------- */
+/* ---------------- Couleurs ------------------ */
+/* --------------- -Squelette ----------------- */
+/* ------------------- ANIMATION SOULIGNEMENT PARTIE MENU ---------------- */
 /* ZOOM MENU ACCUEIL */
 .carte a {
   transition: all 400ms;
@@ -310,6 +316,74 @@ footer h3:hover {
   40%, 60% {
     transform: translate3d(4px, 0, 0);
   }
+}
+/* ------------------- ANIMATION SOULIGNEMENT PARTIE MENU ---------------- */
+.note section div h3 {
+  background: linear-gradient(to top, #2E0E13 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 800ms;
+}
+.note section div h3:hover {
+  background-size: 100% 100%;
+}
+
+.chic .appetit h3 {
+  background: linear-gradient(to top, #FF9538 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 800ms;
+}
+.chic .appetit h3:hover {
+  background-size: 100% 100%;
+}
+.chic .papilles h3 {
+  background: linear-gradient(to top, #935087 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 800ms;
+}
+.chic .papilles h3:hover {
+  background-size: 100% 100%;
+}
+.chic .sucrees h3 {
+  background: linear-gradient(to top, #7951DF 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 800ms;
+}
+.chic .sucrees h3:hover {
+  background-size: 100% 100%;
+}
+
+.delice .trait-1 h3 {
+  background: linear-gradient(to top, #0D00FF 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 800ms;
+}
+.delice .trait-1 h3:hover {
+  background-size: 100% 100%;
+}
+.delice .trait-2 h3 {
+  background: linear-gradient(to top, #0C56F0 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 800ms;
+}
+.delice .trait-2 h3:hover {
+  background-size: 100% 100%;
+}
+.delice .trait-3 h3 {
+  background: linear-gradient(to top, #1FE9F7 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 800ms;
+}
+.delice .trait-3 h3:hover {
+  background-size: 100% 100%;
+}
+
+.palette section h3 {
+  background: linear-gradient(to top, #30A700 5%, transparent 5.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 800ms;
+}
+.palette section h3:hover {
+  background-size: 100% 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

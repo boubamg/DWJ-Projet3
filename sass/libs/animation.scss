@@ -1,3 +1,5 @@
+@import "./mixins.scss";
+
 /* ZOOM MENU ACCUEIL */
 
 .carte {
@@ -42,4 +44,39 @@ footer {
       transform: translate3d(4px, 0, 0);
     }
   
+}
+
+/* ------------------- ANIMATION SOULIGNEMENT PARTIE MENU ---------------- */
+
+.note {
+    section div h3 {
+                @include underline($note-font-color);
+    }
+}
+.chic {
+    .appetit h3 {
+        @include underline($chic-font-color1);
+    }
+    .papilles h3 {
+        @include underline($chic-font-color3);
+    }
+    .sucrees h3 {
+        @include underline($chic-font-color2);
+    }
+}
+.delice {
+    .trait-1 h3{
+        @include underline($delice-font-color1);
+    }
+    .trait-2 h3 {
+        @include underline($delice-font-color3);
+    }   
+    .trait-3 h3 {
+        @include underline($delice-font-color2);
+    }   
+}
+.palette {
+    section h3 {
+        @include underline(#30A700);
+    }
 }

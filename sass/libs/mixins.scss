@@ -46,6 +46,17 @@
     }
 }
 
+/* ------------------- ANIMATION SOULIGNEMENT PARTIE MENU ---------------- */
+
+@mixin underline ($color) {
+    background: linear-gradient(to top, ($color) 5%, transparent 5.01%) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 800ms;
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+}
 
 @mixin ombres() {
     -webkit-box-shadow: 1px 6px 30px 0px rgba(117,116,117,0.57);
