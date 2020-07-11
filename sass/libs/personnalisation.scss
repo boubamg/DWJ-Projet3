@@ -3,7 +3,6 @@
 /* ---------------- PERSONNALISATION -----------------*/
 
 .note {
-
     @include skeleton-menu($note-background, $note-font-color, $font: $note-font);
     @include trait-color($note-font-color);
 
@@ -13,7 +12,6 @@
 }
 
 .chic {
-
     @include skeleton-menu($chic-background, $chic-font-color1, $chic-font-color2, $chic-font);
 
     .appetit {
@@ -33,7 +31,6 @@
 }
 
 .delice {
-
     @include skeleton-menu($delice-background, $delice-font-color1, $delice-font-color2, $delice-font);
 
     .title {
@@ -54,7 +51,6 @@
 }
 
 .palette {
-
     @include skeleton-menu(#fff, $palette-font-color1, $palette-font-color2, $palette-font);
 
     .title {
@@ -64,14 +60,13 @@
     .degrade-1 {
         @include gradient-background($palette-font-color1, $palette-font-color2);
     }
-
     .degrade-2 {
         @include gradient-background($palette-font-color2, $palette-font-color1);
     }
 }
 
 .delice, .palette {
-
+    
     section {
         @include font-color-menu(#000);
     }

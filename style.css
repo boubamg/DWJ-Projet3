@@ -277,4 +277,13 @@ header, footer, #prochainement p {
   flex: 1;
 }
 
+/* ZOOM MENU ACCUEIL */
+.carte a {
+  transition: all 400ms;
+}
+.carte a:hover {
+  transform: scale(1.15);
+  opacity: 0.8;
+}
+
 /*# sourceMappingURL=style.css.map */

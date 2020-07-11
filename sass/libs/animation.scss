@@ -1,0 +1,11 @@
+/* ZOOM MENU ACCUEIL */
+
+.carte {
+    a {
+        transition: all 400ms;
+        &:hover {
+            transform: scale(1.15);
+            opacity: 0.8;
+        }
+    }
+}
