@@ -9,6 +9,7 @@
     i {
         @include gradient(#E93F4F,#F07055)
     }
+
 }
 
 .chic {
@@ -69,5 +70,32 @@
     
     section {
         @include font-color-menu(#000);
+    }
+}
+
+@media all and (max-width:400px) {
+    .delice {
+        .trait-1 {
+            h3 {
+                color:$delice-font-color1;
+            }
+        }
+        .trait-2 {
+            h3 {
+                color:$delice-font-color3;
+            }
+        }   
+        .trait-3 {
+            h3 {
+                color:$delice-font-color2;
+            }
+        }  
+    }
+    .palette {
+        section div:first-child {
+            h3 {
+                color: $palette-font-color1;
+            }
+        }
     }
 }

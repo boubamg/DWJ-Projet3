@@ -46,3 +46,22 @@
         }
     }
 }
+
+@media all and (max-width:400px) {
+    .menu {
+        section {
+            div:first-child {
+                font-size: large;
+            }
+
+            div {
+                flex-direction: column;
+                text-align: center;
+
+                p {
+                    margin-bottom: 10px;
+                }
+            }
+        } 
+    }
+}
