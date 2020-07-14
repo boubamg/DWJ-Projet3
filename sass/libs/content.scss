@@ -60,3 +60,9 @@ main {
                
         }
     }
+
+@media all and (max-width:500px) {
+    .container .carte {
+            width: 300px;
+    }
+}
