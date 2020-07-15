@@ -20,6 +20,10 @@ header {
 }
 header h1 {
   margin: auto;
+  color: #fdcb46;
+}
+header h1 a {
+  color: #fdcb46;
 }
 
 footer {
