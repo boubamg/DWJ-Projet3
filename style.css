@@ -43,6 +43,19 @@ footer h3 a {
   color: #fdcb46;
 }
 
+@media all and (max-width: 300px) {
+  footer {
+    flex-direction: column;
+    height: 70px;
+  }
+  footer h3 {
+    margin: 5px auto;
+  }
+
+  main {
+    margin-bottom: 100px !important;
+  }
+}
 /* -----------------    GENERAL   --------------- */
 * {
   margin: 0;
