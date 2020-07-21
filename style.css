@@ -18,12 +18,14 @@ header {
   display: flex;
   height: 60px;
 }
-header h1 {
+header .main-title, header p {
   margin: auto;
+}
+header .main-title a, header p a {
   color: #fdcb46;
 }
-header h1 a {
-  color: #fdcb46;
+header p {
+  font-size: xx-large;
 }
 
 footer {
@@ -54,6 +56,10 @@ body {
 }
 body a {
   text-decoration: none;
+}
+body h1 {
+  margin: 40px 0 15px 0px;
+  text-align: center;
 }
 body h2, body h3 {
   font-weight: normal;
@@ -269,7 +275,7 @@ header, footer, #prochainement p {
   -webkit-box-shadow: 1px 6px 30px 0px rgba(117, 116, 117, 0.57);
   -moz-box-shadow: 1px 6px 30px 0px rgba(117, 116, 117, 0.57);
   box-shadow: 1px 6px 30px 0px rgba(117, 116, 117, 0.57);
-  margin: 50px auto;
+  margin: 0px auto;
   padding: 30px;
 }
 .menu .title {

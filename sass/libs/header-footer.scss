@@ -5,14 +5,18 @@ header {
     display: flex;
     height: 60px;
 
-    h1 {
+    .main-title, p {
         margin: auto;
-        color: $yellow;
 
         a {
             color: $yellow;
         }
     }
+
+    p {
+        font-size: xx-large;
+    }
+
 }
 
 footer {
