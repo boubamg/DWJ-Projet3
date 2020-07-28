@@ -441,7 +441,6 @@ footer h3:hover {
 
 /* ------------- POINT DE SUSPENSION ANIME */
 .dots {
-  content: ".";
   animation: dots 2s infinite;
 }
 
