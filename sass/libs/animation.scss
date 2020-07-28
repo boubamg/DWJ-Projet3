@@ -18,11 +18,8 @@ footer {
     h3 {
             transition: all 400ms;
             &:hover {
-                    animation: shake 0.82s both;
-                    backface-visibility: hidden;
-                    perspective: 1000px;
-                  }
-                  
+                    animation: shake 0.82s;
+                  }        
     }
 }
 
@@ -84,7 +81,7 @@ footer {
 
 .dots {
     content: ".";
-    animation: dots 2s steps(4, end) infinite;
+    animation: dots 2s infinite;
 }
 
 @keyframes dots {

@@ -353,9 +353,7 @@ footer h3 {
   transition: all 400ms;
 }
 footer h3:hover {
-  animation: shake 0.82s both;
-  backface-visibility: hidden;
-  perspective: 1000px;
+  animation: shake 0.82s;
 }
 
 @keyframes shake {
@@ -374,7 +372,7 @@ footer h3:hover {
 }
 /* ------------------- ANIMATION SOULIGNEMENT PARTIE MENU ---------------- */
 .note section div h3 {
-  background: linear-gradient(to top, #2E0E13 5%, transparent 5.01%) no-repeat;
+  background: linear-gradient(to top, #2E0E13 5%, transparent 5%) no-repeat;
   background-size: 0 100%;
   transition: background-size 800ms;
 }
@@ -383,7 +381,7 @@ footer h3:hover {
 }
 
 .chic .appetit h3 {
-  background: linear-gradient(to top, #FF9538 5%, transparent 5.01%) no-repeat;
+  background: linear-gradient(to top, #FF9538 5%, transparent 5%) no-repeat;
   background-size: 0 100%;
   transition: background-size 800ms;
 }
@@ -391,7 +389,7 @@ footer h3:hover {
   background-size: 100% 100%;
 }
 .chic .papilles h3 {
-  background: linear-gradient(to top, #935087 5%, transparent 5.01%) no-repeat;
+  background: linear-gradient(to top, #935087 5%, transparent 5%) no-repeat;
   background-size: 0 100%;
   transition: background-size 800ms;
 }
@@ -399,7 +397,7 @@ footer h3:hover {
   background-size: 100% 100%;
 }
 .chic .sucrees h3 {
-  background: linear-gradient(to top, #7951DF 5%, transparent 5.01%) no-repeat;
+  background: linear-gradient(to top, #7951DF 5%, transparent 5%) no-repeat;
   background-size: 0 100%;
   transition: background-size 800ms;
 }
@@ -408,7 +406,7 @@ footer h3:hover {
 }
 
 .delice .trait-1 h3 {
-  background: linear-gradient(to top, #0D00FF 5%, transparent 5.01%) no-repeat;
+  background: linear-gradient(to top, #0D00FF 5%, transparent 5%) no-repeat;
   background-size: 0 100%;
   transition: background-size 800ms;
 }
@@ -416,7 +414,7 @@ footer h3:hover {
   background-size: 100% 100%;
 }
 .delice .trait-2 h3 {
-  background: linear-gradient(to top, #0C56F0 5%, transparent 5.01%) no-repeat;
+  background: linear-gradient(to top, #0C56F0 5%, transparent 5%) no-repeat;
   background-size: 0 100%;
   transition: background-size 800ms;
 }
@@ -424,7 +422,7 @@ footer h3:hover {
   background-size: 100% 100%;
 }
 .delice .trait-3 h3 {
-  background: linear-gradient(to top, #1FE9F7 5%, transparent 5.01%) no-repeat;
+  background: linear-gradient(to top, #1FE9F7 5%, transparent 5%) no-repeat;
   background-size: 0 100%;
   transition: background-size 800ms;
 }
@@ -433,7 +431,7 @@ footer h3:hover {
 }
 
 .palette section h3 {
-  background: linear-gradient(to top, #30A700 5%, transparent 5.01%) no-repeat;
+  background: linear-gradient(to top, #30A700 5%, transparent 5%) no-repeat;
   background-size: 0 100%;
   transition: background-size 800ms;
 }
@@ -444,7 +442,7 @@ footer h3:hover {
 /* ------------- POINT DE SUSPENSION ANIME */
 .dots {
   content: ".";
-  animation: dots 2s steps(4, end) infinite;
+  animation: dots 2s infinite;
 }
 
 @keyframes dots {
