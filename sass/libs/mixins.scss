@@ -50,11 +50,11 @@
 
 @mixin underline ($color) {
     background: linear-gradient(to top, ($color) 5%, transparent 5%) no-repeat;
-    background-size: 0 100%;
+    background-size: 0%;
     transition: background-size 800ms;
 
     &:hover {
-        background-size: 100% 100%;
+        background-size: 100%;
     }
 }
 
